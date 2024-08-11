@@ -2,6 +2,7 @@
 In this repository you'll find the files for my DIY Breath Analyzer based on the MQ3 Sensor.
 Check out my step-by-step guide on Instructables.
 **NOTE:** This device may not have good accuracy and should not be used as a way to determine your blood alcohol concentration. Refer to commercial products instead! Furthermore, this project was sponsored by PCBWay. They were so kind to produce the circuit board for this project. PCBWay offers different services, such as pcb fabrication.
+![Cover](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/BreathAnalyzer_1.jpg)
 
 
 ***
@@ -43,12 +44,14 @@ Check out my step-by-step guide on Instructables.
 | 1k 0805 | 4 | R10-R13 |
 | M2.5x12mm screw + nut | 4 | - |
 | M3x20mm screw + nut | 4 | - |
+![Calibrate](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/PCB_BreathAnalyzer.jpg)
 
 
 **Soldering:**<br>
 Begin to solder the boost converter (U2,D1,L1,C1,C2,R1,R2) and confirm the output voltage of roughly 5V.
 Now you can proceed to solder the smd components first and through-hole components second.
 You may want to [change](https://www.youtube.com/watch?v=6asCEBm4ZAw) the charge programming resistor of the TP4056 module. Add pins to VCC,GND,MOSI,SCKL,MISO,RST to flash the ATmega. You do not need pins on rx and tx.
+![Cover](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/Schematic_BreathAnalyzer.png)
 
 
 ***
@@ -57,6 +60,7 @@ Heating the sensor once for (over) 24 hours is sufficient to get stable readings
 Install the `MiniCore` board manager, `U8g2`, `DHT` library and upload the test code via an Arduino Uno with `Arduino As ISP`.  Press the buttons to toggle between values: analog value; voltage; sensor resistance; bac in per mille (note: calculate r0 for your sensor first); temperature and humidity.
 Flash `BreathAnalyzer.ino` on the Atmega if everything worked as expected and unplug all cables. After plugging in the battery and turning on the device, it should heat up for 30 seconds. Navigate to settings and start to calibrate the device (expose the sensor to clean air only). 
 Print the case with the two buttons and screw everything in place. Now your DIY Breath Analyzer is all set up!
+![Calibrate](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/BreathAnalyzer_3.jpg)
 
 
 ***
@@ -66,3 +70,4 @@ Print the case with the two buttons and screw everything in place. Now your DIY 
 - idle mode: press both buttons to enter settings mode
 - settings mode: toggle between settings with mode button (left) and change with set button (right)
 - settings mode: press both buttons to leave settings mode and save values to eeprom
+![Calibrate](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/BreathAnalyzer_2.jpg)
