@@ -44,8 +44,8 @@ Check out my step-by-step guide on [Instructables](https://www.instructables.com
 | 1k 0805 | 4 | R10-R13 |
 | M2.5x12mm screw + nut | 4 | - |
 | M3x20mm screw + nut | 4 | - |
-<br>
-![Calibrate](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/PCB_BreathAnalyzer.jpg)
+
+![PCBs](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/PCB_BreathAnalyzer.jpg)
 
 
 **Soldering:**<br>
@@ -61,7 +61,7 @@ Heating the sensor once for (over) 24 hours is sufficient to get stable readings
 Install the `MiniCore` board manager, `U8g2`, `DHT` library and upload the test code via an Arduino Uno with `Arduino As ISP`.  Press the buttons to toggle between values: analog value; voltage; sensor resistance; bac in per mille (note: calculate r0 for your sensor first); temperature and humidity.
 Flash `BreathAnalyzer.ino` on the Atmega if everything worked as expected and unplug all cables. After plugging in the battery and turning on the device, it should heat up for 30 seconds. Navigate to settings and start to calibrate the device (expose the sensor to clean air only). 
 Print the case with the two buttons and screw everything in place. Now your DIY Breath Analyzer is all set up!
-![Calibrate](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/BreathAnalyzer_2.jpg)
+![Testing](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/BreathAnalyzer_2.jpg)
 
 
 ***
