@@ -1,8 +1,11 @@
+![Cover](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/BreathAnalyzer_1.jpg)
+
 # DIY BREATH ANALYZER
 In this repository you'll find the files for my DIY Breath Analyzer based on the MQ3 Sensor.
 Check out my step-by-step guide on [Instructables](https://www.instructables.com/DIY-Breath-Analyzer-With-the-MQ3/).<br>
-**NOTE:** This device may not have good accuracy and should not be used as a way to determine your blood alcohol concentration. Refer to commercial products instead! Furthermore, this project was sponsored by PCBWay. They were so kind to produce the circuit board for this project. PCBWay offers different services, such as pcb fabrication.
-![Cover](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/BreathAnalyzer_1.jpg)
+**NOTE:** This device may not have good accuracy and should not be used as a way to determine your blood alcohol concentration. Refer to commercial products instead! Furthermore, this project was sponsored by [PCBWay](https://www.pcbway.com/). They were so kind to produce the circuit board for this project. PCBWay offers different services, such as pcb fabrication. 
+It was the first time for me to use their service. With the gerber files the process of ordering was simple and fast. The quality of the pcbs is awesome! Prefect to bring your diy project to the next level!
+![PCBs](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/PCB_BreathAnalyzer.jpg)
 
 
 ***
@@ -44,8 +47,6 @@ Check out my step-by-step guide on [Instructables](https://www.instructables.com
 | 1k 0805 | 4 | R10-R13 |
 | M2.5x12mm screw + nut | 4 | - |
 | M3x20mm screw + nut | 4 | - |
-
-![PCBs](https://github.com/KonradWohlfahrt/Breath-Analyzer/blob/main/images/PCB_BreathAnalyzer.jpg)
 
 
 **Soldering:**<br>
